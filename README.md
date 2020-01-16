@@ -1,3 +1,11 @@
+# Kyrie Website
+
+This is a website for anyone who doesn't have social media so that they can sign up for events and stay up to date.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
