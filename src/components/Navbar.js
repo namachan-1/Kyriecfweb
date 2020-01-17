@@ -9,21 +9,9 @@ const MyToolbar = styled(Toolbar)({
 });
 
 const NavLink = (props) => {
-  // ref is the id (same as props.label) that the header of each section should have if this is a single page application,
-  // otherwise handleClick is unnecessary and navbar can have links to other pages
-//  function handleClick(ref) {
-//    const element = document.getElementById(ref);
-//
-//    element.scrollIntoView({
-//      behavior: 'smooth',
-//      block: 'start',
-//    });
-//  }
-
   return (
     <Button
       style={{color: 'white', marginRight: '2%'}}
-//      onClick={() => handleClick(props.label)}
     >
       {props.label}
     </Button>
