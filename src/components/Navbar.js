@@ -27,6 +27,12 @@ export default function Navbar() {
     root: {
       flexGrow: 1,
     },
+    nav: {
+      backgroundColor: 'black',
+    },
+    tab: {
+      color: 'white'
+    }
   }
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -37,12 +43,11 @@ export default function Navbar() {
       <Tabs
         value={value}
         onChange={handleChange}
-        indicatorColor="primary"
-        textColor="primary"
+        style={classes.nav}
       >
-        <Tab label="Item One" />  {/* selects TabPanel at index 0 */}
-        <Tab label="Item Two" />
-        <Tab label="Item Three" />
+        <Tab style={classes.tab} label="Item One" />  {/* selects TabPanel at index 0 */}
+        <Tab style={classes.tab} label="Item Two" />
+        <Tab style={classes.tab} label="Item Three" />
       </Tabs>
       <TabPanel value={value} index={0}>
         Component 1
