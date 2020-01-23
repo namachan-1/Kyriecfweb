@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import kyrieLogo from './kyrie_logo.png';
 import './App.css';
 import Navbar from './components/Navbar';
 
@@ -8,17 +8,18 @@ function App() {
     <div className="App">
       <Navbar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={kyrieLogo} alt="Kyrie Christian Fellowship" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          woW is this the new kyrie website?
+          *Where the about will be / other things*
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.facebook.com/groups/kyrieucsc/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Kyrie Eleison
+          Facebook (use this sort of thing for the other links too @nae yahyee)
         </a>
       </header>
     </div>
