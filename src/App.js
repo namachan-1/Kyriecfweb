@@ -8,10 +8,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <header className="App-header">
-        <img src={kyrieLogo} alt="Kyrie Christian Fellowship" />
+        <img class="App-logo" src={kyrieLogo} alt="Kyrie Christian Fellowship" />
         <p>
-          woW is this the new kyrie website?
-          *Where the about will be / other things*
+        Kyrie (keer-ee-ey) Christian Fellowship. The name of our fellowship comes from the greek word Kyrie, meaning Lord. It is what we are all about, and why we are here.
+        </p>
+        <p>
+        Who are we? We are a Christian fellowship at UCSC supported by Trinity Bible Church (Felton) and Redeemer Anglican Church (Aptos). Our goal is to evangelize, disciple, and train college students at UC Santa Cruz through active participation in and engagement with the local church. We hope to further the kingdom of God by raising up men and women of God.
         </p>
         <a
           className="App-link"
@@ -19,7 +21,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Facebook (use this sort of thing for the other links too @nae yahyee)
+          Facebook
+        </a>
+        <a
+          className="App-link"
+          href="https://www.instagram.com/kyrieucsc/?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
         </a>
       </header>
     </div>

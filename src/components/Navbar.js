@@ -50,7 +50,7 @@ export default function Navbar() {
         <Tab style={classes.tab} label="Item Three" />
       </Tabs>
       <TabPanel value={value} index={0}>
-        Component 1
+        Component 1 - What does this even do. navbar.js
       </TabPanel>
       <TabPanel value={value} index={1}>
         Component 2
